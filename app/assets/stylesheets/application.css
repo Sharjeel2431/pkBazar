@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
+body{
+    font-size:38px;
+}
 a
 {
     text-decoration: none;
