@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
+
+  get 'view_products/index'
+
+  resources :tbl_products
+
   resources :tbl_categories
+
+  get 'tbl_products/:id/edit/:id' => 'tbl_products#edit', as: :productsshow
+  get 'view_products/:id' => 'view_products#index', as: :jasa
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

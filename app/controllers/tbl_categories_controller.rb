@@ -5,6 +5,7 @@ class TblCategoriesController < ApplicationController
   # GET /tbl_categories.json
   def index
     @tbl_categories = TblCategory.all
+
   end
 
   # GET /tbl_categories/1
@@ -19,6 +20,7 @@ class TblCategoriesController < ApplicationController
 
   # GET /tbl_categories/1/edit
   def edit
+
   end
 
   # POST /tbl_categories
@@ -69,6 +71,6 @@ class TblCategoriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def tbl_category_params
-      params.require(:tbl_category).permit(:CategoryName, :Description)
+      params.require(:tbl_category).permit(:CategoryName, :Description,:CategoryID)
     end
 end

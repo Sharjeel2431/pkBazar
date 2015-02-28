@@ -1,0 +1,52 @@
+<%= form_for(@tbl_product) do |f| %>
+  <% if @tbl_product.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@tbl_product.errors.count, "error") %> prohibited this tbl_product from being saved:</h2>
+
+      <ul>
+      <% @tbl_product.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :ProductCode %><br>
+    <%= f.text_field :ProductCode %>
+  </div>
+  <div class="field">
+    <%= f.label :ProductName %><br>
+    <%= f.text_field :ProductName %>
+  </div>
+    <div class="field">
+      <%= f.label :ProductCategory %><br>
+
+      <%=  collection_select(:TblCategory, :CategoryID, TblCategory.all ,:CategoryID,:CategoryName, {:selected => TblCategory.where(CategoryID: params[:id]).map(&:CategoryID)} )%>
+    </div>
+
+    <script type="text/javascript">
+
+        $('#TblCategory_CategoryID').on('change', function() {
+            var id=$(this).val()
+            $("#hidfield").val(id);
+
+        });
+
+    </script>
+    <input type="hidden" id="hidfield" name="placehold"  />
+
+
+    <div class="field">
+    <%= f.label :ProductBrand %><br>
+    <%= f.text_field :ProductBrand %>
+  </div>
+  <div class="field">
+    <%= f.label :ProductPrice %><br>
+    <%= f.text_field :ProductPrice %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Submit" %>
+  </div>
+<% end %>

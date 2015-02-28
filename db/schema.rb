@@ -11,14 +11,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150228132540) do
+ActiveRecord::Schema.define(version: 20150228212118) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "tbl_categories", force: true do |t|
+  create_table "tbl_categories", primary_key: "CategoryID", force: true do |t|
     t.string   "CategoryName"
     t.string   "Description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "tbl_products", primary_key: "ProductID", force: true do |t|
+    t.string   "ProductCode"
+    t.string   "ProductName"
+    t.string   "ProductBrand"
+    t.string   "ProductPrice"
+    t.text     "ProductCategory"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "view_products", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
   end

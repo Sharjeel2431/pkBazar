@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+<h1 style="text-align: center;color:#FE0101">Product Information</h1>
+<%=@abc%>
+
+
+<p>
+  <strong>Productcode:</strong>
+  <%= @tbl_product.ProductCode %>
+</p>
+
+<p>
+  <strong>Productname:</strong>
+  <%= @tbl_product.ProductName %>
+</p>
+
+<p>
+  <strong>Productbrand:</strong>
+  <%= @tbl_product.ProductBrand %>
+</p>
+
+<p>
+  <strong>Productprice:</strong>
+  <%= @tbl_product.ProductPrice %>
+</p>
+
+<p>
+  <strong>Productcategory:</strong>
+  <%= @tbl_product.ProductCategory %>
+</p>
+
+<%= link_to 'Edit', edit_tbl_product_path(@tbl_product) %> |
+<%= link_to 'Back', tbl_products_path %>

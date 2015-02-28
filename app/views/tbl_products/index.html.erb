@@ -1,0 +1,34 @@
+<h1 style="text-align: center;color:#FE0101">Products</h1>
+
+<table data-role="table" class="ui-responsive" >
+  <thead>
+    <tr>
+      <th>Productcode</th>
+      <th>Productname</th>
+      <th>Productbrand</th>
+      <th>Productprice</th>
+      <th>Productcategory</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tbl_products.each do |tbl_product| %>
+      <tr>
+        <td><%= tbl_product.ProductCode %></td>
+        <td><%= tbl_product.ProductName %></td>
+        <td><%= tbl_product.ProductBrand %></td>
+        <td><%= tbl_product.ProductPrice %></td>
+        <td><%= tbl_product.ProductCategory %></td>
+        <td><%= link_to 'Show', tbl_product %></td>
+        <td> <a href="/tbl_products/<%= tbl_product.ProductID %>/edit/<%=tbl_product.ProductID%>" >Edit</a></td>
+
+        <td><%= link_to 'Destroy', tbl_product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Add New Products', new_tbl_product_path %>
