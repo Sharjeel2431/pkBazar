@@ -8,6 +8,17 @@ development:
   password: 123
   port: 5432
 
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: d551uit4lkbev3
+  pool: 5
+  username: htqotwyrsjbtra
+  password: nzoJ0qhvOOFPVkaY1Qav1Ez-8f
+  host: ec2-23-23-180-133.compute-1.amazonaws.com
+  port: 5432
+
 test:
     adapter: postgresql
     encoding: unicode
