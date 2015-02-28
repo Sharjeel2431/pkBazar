@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Categoryname:</strong>
+  <%= @tbl_category.CategoryName %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @tbl_category.Description %>
+</p>
+
+<%= link_to 'Edit', edit_tbl_category_path(@tbl_category) %> |
+<%= link_to 'Back', tbl_categories_path %>

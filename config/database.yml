@@ -19,12 +19,3 @@ production:
   host: ec2-23-23-180-133.compute-1.amazonaws.com
   port: 5432
 
-test:
-    adapter: postgresql
-    encoding: unicode
-    database: pkBazar
-    host: localhost
-    pool: 5
-    username: postgres
-    password: 123
-    port: 5432

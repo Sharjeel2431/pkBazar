@@ -1,7 +1,20 @@
 <div data-role="main" class="ui-content">
   <h1 style="text-align: center;">Categories</h1>
-  <ul data-role="listview">
-    <li><a href="#Chiniot-Faisalabad" data-transition="flip">Chiniot-Faisalabad</a></li>
-  </ul>
+
+      <% @tbl_categories.each do |tbl_category| %>
+      <ul data-role="listview">
+        <li>
+        <a href="#Chiniot-Faisalabad" data-transition="flip">
+            <%= tbl_category.CategoryName %>
+
+          </a>
+        </li>
+      </ul>
+      <br/>
+      <br/>
+
+      <% end %>
+
+
 
 </div>

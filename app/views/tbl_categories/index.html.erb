@@ -1,0 +1,27 @@
+<h1>Listing tbl_categories</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Categoryname</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tbl_categories.each do |tbl_category| %>
+      <tr>
+        <td><%= tbl_category.CategoryName %></td>
+        <td><%= tbl_category.Description %></td>
+        <td><%= link_to 'Show', tbl_category %></td>
+        <td><%= link_to 'Edit', edit_tbl_category_path(tbl_category) %></td>
+        <td><%= link_to 'Destroy', tbl_category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tbl category', new_tbl_category_path %>
