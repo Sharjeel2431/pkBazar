@@ -5,9 +5,11 @@
       <ul data-role="listview">
         <li>
 
+            <%=
 
-            <%= link_to tbl_category.CategoryName, tbl_category%>
+             link_to tbl_category.CategoryName, '/view_products/'+tbl_category.CategoryID.to_s
 
+            %>
 
         </li>
       </ul>
