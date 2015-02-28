@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f4661ff-8308-4745-b01a-ef92e8ee80ed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pkBazar.iml" afterPath="$PROJECT_DIR$/.idea/pkBazar.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pkBazar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +38,7 @@
       <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="12" selection-start="152" selection-end="152" vertical-scroll-proportion="0.3261391" vertical-offset="0" max-vertical-offset="417">
+            <state line="18" column="14" selection-start="315" selection-end="315" vertical-scroll-proportion="0.7338129" vertical-offset="0" max-vertical-offset="417">
               <folding />
             </state>
           </provider>
@@ -333,7 +332,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="152" selection-end="152" vertical-scroll-proportion="0.3261391" vertical-offset="0" max-vertical-offset="417">
+        <state line="18" column="14" selection-start="315" selection-end="315" vertical-scroll-proportion="0.7338129" vertical-offset="0" max-vertical-offset="417">
           <folding />
         </state>
       </provider>

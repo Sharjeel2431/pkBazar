@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3765999566">
+  <component name="DataSourceManagerImpl" format="xml" hash="2299819025">
     <data-source source="LOCAL" name="Rails pkBazar: development" uuid="1dcd3c32-58d1-4fe4-85e3-246a2d02a97d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/pkBazar</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df9bdf98df99</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails pkBazar: test" uuid="1b7b5121-fa6c-4bfd-82b6-917817a7b769">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/pkBazar</jdbc-url>

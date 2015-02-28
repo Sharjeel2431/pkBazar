@@ -3,4 +3,7 @@
   <data-source source="LOCAL" name="Rails pkBazar: development" uuid="1dcd3c32-58d1-4fe4-85e3-246a2d02a97d">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails pkBazar: test" uuid="1b7b5121-fa6c-4bfd-82b6-917817a7b769">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
