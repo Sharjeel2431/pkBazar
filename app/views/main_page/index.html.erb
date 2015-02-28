@@ -4,10 +4,11 @@
       <% @tbl_categories.each do |tbl_category| %>
       <ul data-role="listview">
         <li>
-        <a href="#Chiniot-Faisalabad" data-transition="flip">
-            <%= tbl_category.CategoryName %>
 
-          </a>
+
+            <%= link_to tbl_category.CategoryName, tbl_category%>
+
+
         </li>
       </ul>
       <br/>
