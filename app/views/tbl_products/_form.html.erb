@@ -22,7 +22,7 @@
     <div class="field">
       <%= f.label :ProductCategory %><br>
 
-      <%=  collection_select(:TblCategory, :CategoryID, TblCategory.all ,:CategoryID,:CategoryName, {:selected => TblCategory.where(CategoryID: params[:id]).map(&:CategoryID)} )%>
+      <%=  collection_select(:TblCategory, :CategoryID, TblCategory.all ,:CategoryID,:CategoryName, {:selected => TblCategory.where(CategoryID: @catid).map(&:CategoryID)} )%>
     </div>
 
     <script type="text/javascript">

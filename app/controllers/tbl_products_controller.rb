@@ -35,6 +35,11 @@ class TblProductsController < ApplicationController
 
   # GET /tbl_products/1/edit
   def edit
+    @parmsid=params[:id]
+    @pageinfo=TblProduct.find_by_ProductID(@parmsid)
+    @categoryname=@pageinfo.ProductCategory
+    @catinfo=TblCategory.find_by_CategoryName(@categoryname)
+    @catid=@catinfo.CategoryID
   end
 
   # POST /tbl_products
@@ -67,6 +72,14 @@ class TblProductsController < ApplicationController
   def update
     respond_to do |format|
       if @tbl_product.update(tbl_product_params)
+
+        @categoriesinfo=TblCategory.find_by_CategoryID(params[:placehold])
+
+        query= 'UPDATE tbl_products SET "ProductCategory"='+"'"+"#{@categoriesinfo.CategoryName}"+"'"+' where "ProductID"='+"#{params[:id]}"+";"
+
+
+        ActiveRecord::Base.connection.execute(query);
+
         format.html { redirect_to @tbl_product, notice: 'Tbl product was successfully updated.' }
         format.json { render :show, status: :ok, location: @tbl_product }
       else
