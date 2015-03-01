@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f4661ff-8308-4745-b01a-ef92e8ee80ed" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pkBazar.iml" afterPath="$PROJECT_DIR$/.idea/pkBazar.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pkBazar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,7 +103,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.082125604" vertical-offset="0" max-vertical-offset="799">
+            <state line="8" column="8" selection-start="213" selection-end="213" vertical-scroll-proportion="0.32850242" vertical-offset="0" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -942,7 +944,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.082125604" vertical-offset="0" max-vertical-offset="799">
+        <state line="8" column="8" selection-start="213" selection-end="213" vertical-scroll-proportion="0.32850242" vertical-offset="0" max-vertical-offset="799">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-
+gem "paperclip", "~> 3.5.3"
 
 gem 'heroku'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
