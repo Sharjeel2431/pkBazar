@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f4661ff-8308-4745-b01a-ef92e8ee80ed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pkBazar.iml" afterPath="$PROJECT_DIR$/.idea/pkBazar.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tbl_products/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/tbl_products/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tbl_products_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tbl_products_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pkBazar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,19 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="7" selection-start="329" selection-end="329" vertical-scroll-proportion="0.35051546" vertical-offset="0" max-vertical-offset="663">
+            <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="14" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+            <state line="2" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.082125604" vertical-offset="0" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -163,10 +156,10 @@
         <option value="$PROJECT_DIR$/app/views/view_products/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/tbl_products/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/tbl_products_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20150301083105_paper_clip.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20150301100849_paper_clip.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -933,13 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="14" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tbl_products_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="26" selection-start="1780" selection-end="1780" vertical-scroll-proportion="-2.64" vertical-offset="1158" max-vertical-offset="2006">
@@ -949,7 +935,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="329" selection-end="329" vertical-scroll-proportion="0.35051546" vertical-offset="0" max-vertical-offset="663">
+        <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.082125604" vertical-offset="0" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
